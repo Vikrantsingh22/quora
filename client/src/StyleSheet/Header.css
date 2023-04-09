@@ -1,0 +1,62 @@
+.Header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.Header__left{
+    display: flex;
+    align-items: center;
+}
+
+.left__logo{
+    width: 20%;
+}
+
+.Left__logoimage{
+    width: 100%;
+}
+.left__Home,
+.left__notifications{
+    display: flex;
+    align-items: center;
+    
+}
+.left__notifications{
+    margin-left: 0.8em;
+}
+.current-location{
+    /* color that we are goingto
+      use to highlight the icons */
+    color: aqua;
+    border-bottom: 1px solid aqua;
+}
+
+.Header__center{
+    display: flex;
+    align-items: center;
+    margin-right: 25%;
+    border: 1px solid lightgrey;
+}
+.Header__center:hover{
+    border: 1px solid aqua;
+}
+.center__inputfield{
+    border: none;
+}
+.Header__right{
+    display: flex;
+    align-items: center;
+}
+.right__user,
+.right__icon,
+.right-btn{
+    margin-right: 1em;
+}
+
+.right-btn{
+    border-radius: 999px;
+    padding: 0.1em 2em;
+    background-color: aqua;
+    color: white;
+
+}

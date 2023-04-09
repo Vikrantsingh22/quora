@@ -1,0 +1,34 @@
+.QuestionBox{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 2.5em;
+    border: 1px solid lightgray;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 2rem 1.4rem 2rem lightgray;
+    padding: 0.4em 1em;
+}
+.QuestionBox__user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+   
+}
+.user__id{
+    margin-left: 0.8em;
+    color: orange;
+}
+.QuestionBox__inputtext{
+    margin-bottom: 2em;
+    border: none;
+    font-weight: 700;
+    border-color: white;
+}
+.QuestionBox__inputtext::placeholder{
+    font-weight: 700;
+    border: none;
+    border-color: white;
+}
